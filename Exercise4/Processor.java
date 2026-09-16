@@ -2,16 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package nguyenvanthien_9000.Exercise3;
+package nguyenvanthien_9000.Exercise4;
 
-/**
- *
- * @author Admin
- */
 public class Processor {
-
     public static void main(String[] args) {
-        Report report = new Report("Annual Financial Report");
-        report.print();
+        Circle circle = new Circle();
+        circle.draw();
+        circle.fillColor();
     }
 }

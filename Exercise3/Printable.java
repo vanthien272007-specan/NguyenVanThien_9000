@@ -8,10 +8,6 @@ package nguyenvanthien_9000.Exercise3;
  *
  * @author Admin
  */
-public class Processor {
-
-    public static void main(String[] args) {
-        Report report = new Report("Annual Financial Report");
-        report.print();
-    }
+public interface Printable {
+    void print();
 }
